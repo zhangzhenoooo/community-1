@@ -33,7 +33,7 @@ public class FileController {
             fileDTO.setUrl(fileName);
             return fileDTO;
         } catch (Exception e) {
-            log.error("upload error", e);
+//            log.error("upload error", e);
             FileDTO fileDTO = new FileDTO();
             fileDTO.setSuccess(0);
             fileDTO.setMessage("上传失败");
